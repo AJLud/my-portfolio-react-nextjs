@@ -1,7 +1,15 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import {
+  AiFillFile,
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
+
+import { RiEditCircleLine } from "react-icons/ri";
+import { GiAnvil } from "react-icons/gi";
+import { IoMdHand } from "react-icons/io";
 
 import {
   Container,
@@ -16,11 +24,9 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-        </a>
-      </Link>
+      <NavLink href="/">
+        <RiEditCircleLine size="3rem" /> Portfolio
+      </NavLink>
     </Div1>
     <Div2>
       <li>
@@ -32,7 +38,7 @@ const Header = () => (
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>{" "}
+      </li>
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>

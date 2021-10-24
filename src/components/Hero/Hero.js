@@ -16,10 +16,10 @@ const Hero = (props) => (
         Alex Ludlow <br />
         Junior Software Developer
       </SectionTitle>
+      <br />
+      <br /> <br /> <br /> <br />
       <SectionText>Hi, I wanna learn how to make cool stuff.</SectionText>
-      <Button onClick={() => (window.location = "https://www.google.co.uk/")}>
-        How I do it
-      </Button>
+      <br /> <br /> <br /> <br /> <br /> <br />
     </LeftSection>
   </Section>
 );
