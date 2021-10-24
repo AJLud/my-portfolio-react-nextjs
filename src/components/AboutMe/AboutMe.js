@@ -13,6 +13,9 @@ const AboutMe = () => {
       <SectionDivider />
       <br />
       <SectionTitle>About Me</SectionTitle>
+      <br />
+      <br />
+      <br />
       <SectionText>
         Hello! I am Alex. I am Northcoders Bootcamp Graduate. Graduating the
         Bootcamp has made me discover how much fun coding can be (and how

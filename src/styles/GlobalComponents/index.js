@@ -35,7 +35,7 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(
     121.57deg,
     ${colours.primary} 18.77%,
-    #67a8a4 60.15%
+    #67a8a4 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -82,14 +82,11 @@ export const SectionText = styled.p`
 `;
 
 export const SectionDivider = styled.div`
-  width: 64px;
-  height: 6px;
+  width: 1280px;
+  height: 3px;
   border-radius: 10px;
   background-color: #fff;
-  background: ${(props) =>
-    props.colorAlt
-      ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
-      : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+  background: #deb992;
 
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 

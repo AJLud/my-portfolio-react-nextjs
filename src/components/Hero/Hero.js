@@ -12,7 +12,7 @@ import { LeftSection } from "./HeroStyles";
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle main center>
+      <SectionTitle main center data-aos="fade-in" data-aos-duration="2000">
         Alex Ludlow <br />
         Junior Software Developer
       </SectionTitle>
