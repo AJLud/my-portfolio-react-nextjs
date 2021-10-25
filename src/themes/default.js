@@ -1,7 +1,7 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
+    title: "Fira Code, monospace",
     main: "Fira Code, monospace",
   },
   // Colors for layout
