@@ -3,7 +3,7 @@ export const projects = [
     title: "NC Games API",
     description:
       "Using Node.Js, Express, PgSQL I created a RESTful API that contains information about Board Games. Endpoints were created using express routes and tested using Jest. It is currently hosted on Heroku",
-    image: "/images/1.png",
+    image: "/static/images/projects.jpeg",
     tags: ["PgSQL", "Express", "Node, Heroku"],
     source: "https://github.com/AJLud/wwe-hall-of-game",
     visit: "https://wwe-hall-of-game.herokuapp.com/api",
@@ -13,7 +13,7 @@ export const projects = [
     title: "NC-Games",
     description:
       "Using React.Js I created a Front-End application to interact with the NC-Games API I created. I also used this as an opportunity to add weird and silly CSS effects.",
-    image: "/images/2.png",
+    image: "static/images/2.png",
     tags: ["React", "JavaScript"],
     source: "https://github.com/AJLud/bored-games",
     visit: "https://bored-games-r-us.netlify.app/",
@@ -23,7 +23,7 @@ export const projects = [
     title: "My-tinerary",
     description:
       "In our final group project at Northcoders, 3 other students and myself created a Travel Planning App using React based Ionic 5 and Google Cloud Firestore as our back-end as a service. This is currently not hosted.",
-    image: "/images/3.jpg",
+    image: "static/images/3.jpg",
     tags: ["React", "Ionic", "Firebase"],
     source: "https://github.com/AJLud/My-tinerary",
     visit: "https://google.com",
