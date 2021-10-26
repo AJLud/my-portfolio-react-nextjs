@@ -1,42 +1,42 @@
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "NC Games API",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "Using Node.Js, Express, PgSQL I created a RESTful API that contains information about Board Games. Endpoints were created using express routes and tested using Jest. It is currently hosted on Heroku",
     image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["PgSQL", "Express", "Node, Heroku"],
+    source: "https://github.com/AJLud/wwe-hall-of-game",
+    visit: "https://wwe-hall-of-game.herokuapp.com/api",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "NC-Games",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Using React.Js I created a Front-End application to interact with the NC-Games API I created. I also used this as an opportunity to add weird and silly CSS effects.",
     image: "/images/2.png",
     tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/AJLud/bored-games",
+    visit: "https://bored-games-r-us.netlify.app/",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "My-tinerary",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "In our final group project at Northcoders, 3 other students and myself created a Travel Planning App using React based Ionic 5 and Google Cloud Firestore as our back-end as a service. This is currently not hosted.",
     image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
+    tags: ["React", "Ionic", "Firebase"],
+    source: "https://github.com/AJLud/My-tinerary",
     visit: "https://google.com",
     id: 2,
   },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
-  },
+  // {
+  //   title: "Unichat",
+  //   description:
+  //     "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: "/images/4.jpg",
+  //   tags: ["React", "ChatEngine", "Firebase"],
+  //   source: "https://google.com",
+  //   visit: "https://google.com",
+  //   id: 3,
+  // },
 ];

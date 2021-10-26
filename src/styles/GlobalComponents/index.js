@@ -39,7 +39,8 @@ export const SectionTitle = styled.h2`
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {

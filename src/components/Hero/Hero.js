@@ -4,6 +4,7 @@ import {
   Section,
   SectionText,
   SectionTitle,
+  SectionDivider,
 } from "../../styles/GlobalComponents";
 import { LeftSection } from "./HeroStyles";
 
@@ -21,7 +22,7 @@ const Hero = (props) => (
         Junior Software Developer
       </SectionTitle>
       <br />
-      <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br />
       <SectionText
         data-aos="fade-right"
         data-aos-duration="2000"
@@ -30,6 +31,12 @@ const Hero = (props) => (
         Hi, I am learning how to create things!
       </SectionText>
       <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br />
+      <SectionDivider
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-delay="1000"
+      />
     </LeftSection>
   </Section>
 );
