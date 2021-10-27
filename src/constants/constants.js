@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "NC Games API",
     description:
-      "Using Node.Js, Express, PgSQL I created a RESTful API that contains information about Board Games. Endpoints were created using express routes and tested using Jest. It is currently hosted on Heroku",
+      "Using Node.Js, Express, PgSQL I created a RESTful API that contains information about Board Games. Endpoints were created using express routes and tested using Jest. It is currently hosted on Heroku.",
     image: "https://i.imgur.com/KW7o44L.png",
     tags: ["PgSQL", "Express", "Node", "Heroku"],
     source: "https://github.com/AJLud/wwe-hall-of-game",
@@ -34,7 +34,7 @@ export const projects = [
     description:
       "Having wanted to rebuild my portfolio in React, I found an online resource that instructs in the use of Next.js and styled components. I really enjoyed learning these new ways of interacting with components and building a portfolio I can be proud of.",
     image: "https://i.imgur.com/1WGru1V.png",
-    tags: ["React", "Next"],
+    tags: ["React", "Next", "Netlify"],
     source: "https://github.com/AJLud/my-portfolio-react-nextjs",
     visit: "https://alex-ludlow-portfolio.netlify.app/",
     id: 3,

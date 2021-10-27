@@ -55,7 +55,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Other-Tools</ListTitle>
           <ListParagraph>
-            Experience with <br /> Figma, Jira
+            Experience with <br /> Figma, Jira, Git
           </ListParagraph>
         </ListContainer>
       </ListItem>
