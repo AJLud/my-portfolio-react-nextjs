@@ -35,8 +35,8 @@ export const projects = [
       "Having wanted to rebuild my portfolio in React, I found an online resource that instructs in the use of Next.js and styled components. I really enjoyed learning these new ways of interacting with components and building a portfolio I can be proud of.",
     image: "https://i.imgur.com/1WGru1V.png",
     tags: ["React", "Next"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/AJLud/my-portfolio-react-nextjs",
+    visit: "https://alex-ludlow-portfolio.netlify.app/",
     id: 3,
   },
 ];
