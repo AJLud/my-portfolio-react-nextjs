@@ -32,7 +32,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Don't hesitate to get in touch</Slogan>
+          <Slogan>Please get in touch!</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/AJLud">
           <AiFillGithub size="3rem" />
