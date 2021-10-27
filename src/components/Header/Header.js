@@ -25,7 +25,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="https://ajlud.github.io/my-portfolio-react-nextjs/">
+      <Link href="/">
         <a
           style={{
             display: "flex",
