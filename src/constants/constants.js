@@ -3,8 +3,7 @@ export const projects = [
     title: "NC Games API",
     description:
       "Using Node.Js, Express, PgSQL I created a RESTful API that contains information about Board Games. Endpoints were created using express routes and tested using Jest. It is currently hosted on Heroku",
-    image:
-      "https://media-exp1.licdn.com/dms/image/C4D16AQHF3wrdqjqDUQ/profile-displaybackgroundimage-shrink_350_1400/0/1620138997491?e=1640822400&v=beta&t=BGeUKjuDo8GvGTtVz2_tsgKSJRVBAFmi7FaV4yWvGX4",
+    image: "/static/images/api.png",
     tags: ["PgSQL", "Express", "Node", "Heroku"],
     source: "https://github.com/AJLud/wwe-hall-of-game",
     visit: "https://wwe-hall-of-game.herokuapp.com/api",
