@@ -22,7 +22,7 @@ const Hero = (props) => (
         Junior Software Developer
       </SectionTitle>
       <br />
-      <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br />
       <SectionText
         data-aos="fade-right"
         data-aos-duration="2000"
