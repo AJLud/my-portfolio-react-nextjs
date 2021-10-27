@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { colours } from "../../styles/GlobalComponents";
 
 import { RiEditCircleLine } from "react-icons/ri";
 import { GiAnvil } from "react-icons/gi";
@@ -24,9 +25,17 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <NavLink href="/">
-        <RiEditCircleLine size="3rem" /> Portfolio
-      </NavLink>
+      <Link href="/">
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: colours.primary,
+          }}
+        >
+          <RiEditCircleLine size="3rem" /> Portfolio
+        </a>
+      </Link>
     </Div1>
     <Div2>
       <li>
