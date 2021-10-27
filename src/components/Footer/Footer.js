@@ -29,6 +29,12 @@ const Footer = () => {
             a.ludlowww@gmail.com
           </LinkItem>
         </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>CV</LinkTitle>
+          <LinkItem href="" download>
+            Download CV
+          </LinkItem>
+        </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
