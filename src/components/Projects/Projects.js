@@ -21,13 +21,7 @@ import {
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section
-    nopadding
-    id="projects"
-    data-aos="fade-right"
-    data-aos-duration="2000"
-    data-aos-delay="1000"
-  >
+  <Section nopadding id="projects">
     <br />
     <br />
     <br />
